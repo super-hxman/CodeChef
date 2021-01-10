@@ -1,6 +1,4 @@
 import java.util.*;
-import java.lang.*;
-import java.io.*;
 
 class Codechef{
     public static void main (String[] args) throws java.lang.Exception{
@@ -33,7 +31,7 @@ class Codechef{
                     h2.add(p);
                     h2.add(h[i]);
                     h2.add(p + h[i]);
-                    
+
                     if(((p + h[i]) >= k) && ((sum - p - h[i]) >= k)){
                         z = n - i;
                         break;
@@ -50,5 +48,6 @@ class Codechef{
             }
             System.out.println(z);
         }
+        scan.close();
     }
 }
